@@ -1,0 +1,30 @@
+{
+    "0" : {
+        "name" : "fool",
+        "image_path" : "/assets/images/fool.png",
+        "description": "“A fool takes no pleasure in understanding, but only in expressing his opinion.” -Proverbs 18:2",
+        "upright": ["Innocent", "Original", "Eccentric", "Faithful", "Opportunity", "Spontaneity"],
+        "reverse": ["Willful ignorance", "inconsiderate", "poor planning", "inexperienced", "repeating mistakes"]
+    },
+    "1" : {
+        "name" : "magician",
+        "image_path" : "/assets/images/magician.png",
+        "description": "“The way of a fool is right in his own eyes, but a wise man listens to advice.” - Proverbs 12:15",
+        "upright": ["Efficiency", "Ready for action", "Confident", "Successful", "Focused", "Prepared for change"],
+        "reverse": ["Impatience", "Domineering", "Unreliable", "Unpredictable", "Tyrannical", "Disconnected", "Delusional", "Toxic"]
+    },
+    "2" : {
+        "name" : "priestess",
+        "image_path" : "/assets/images/priestess.png",
+        "description": "“For nothing is hidden that will not be made manifest, nor is anything secret that will not be known and come to light.” - Luke 8:17",
+        "upright": ["Spiritual: Self-Reflection", "Purpose", "Direction in sleep", "Values", "Service to others", "Spontaneity", "Growth"],
+        "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
+    },
+    "3" : {
+        "name" : "empress",
+        "image_path" : "/assets/images/empress.png",
+        "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
+        "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
+        "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
+    }
+}
