@@ -10,6 +10,8 @@
   #cardContainer {
     justify-content: center;
     display: flex;
+    height: 100vh;
+    transition: transform 0.25s ease;
   }
   
   #cardContainer .cardBox {
@@ -35,7 +37,7 @@
     /* transition: opacity 0.25s linear; */
     opacity: 1;
     z-index: 2;
-    transform: translate(0%, 200%) scale(1.5) !important;
+    transform: translate(0%, 75%) scale(1.5) !important;
   }
   
   /* card flip animation */

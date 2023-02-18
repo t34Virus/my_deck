@@ -20,7 +20,10 @@ function Card() {
       const flipCardInner = createElement('div',
       { className: 'flip-card-inner'}, [flipCardFront, flipCardBack])
       const flipCard = createElement('div',
-      { className: 'cardBox flip-card' }, flipCardInner )
+      { 
+        className: 'cardBox flip-card',
+        onClick: () => showCard(parseInt(card)) 
+      }, flipCardInner )
       tempArray.push(flipCard);
     }
     return tempArray;
@@ -38,7 +41,8 @@ function Card() {
     cardContainer?.classList.add(`spread${spread}`);
 
     cardElements.forEach(card => {
-      if (card.classList.contains('spread')) {
+      if (card.classList.contains('spread') || card.classList.contains('show')) {
+        card.classList.remove('show')
         card.classList.remove('spread')
         card.style.transform = `translate(0,0)`;
       }
@@ -75,21 +79,19 @@ function Card() {
     return result;
   }
 
-  function showCard() {
-    const randoNumber = Math.floor(Math.random() * Object.keys(deck).length);
-
-    const cardElements = Array.from(document.getElementsByClassName('cardBox'));
-
+  function showCard(card?: number) {
     cardElements.forEach(card => {
       if (card.classList.contains('show')) {
         card.classList.remove('show')
       }
     });
-    cardElements[randoNumber].classList.add('show');
+    if (card) {
+      cardElements[card].classList.add('show');
+    }
   }
   return (
     <div className="App">
-      <button id="rando" onClick={showCard}>Click me</button>
+      {/* <button id="rando" onClick={showCard}>Click me</button> */}
       <button id="spread3" onClick={() => spreadCards(3)}>3</button>
       <button id="spread5" onClick={() => spreadCards(5)}>5</button>
       <button id="spread7" onClick={() => spreadCards(7)}>7</button>
