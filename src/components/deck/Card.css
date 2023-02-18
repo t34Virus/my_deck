@@ -8,25 +8,34 @@
     background-color: yellow;
   }
   #cardContainer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    /* display: flex; */
-    z-index: 0;
+    justify-content: center;
+    display: flex;
   }
   
   #cardContainer .cardBox {
     position: absolute;
-    /* width: 50%; */
-    opacity: 0;
-    padding: 0 25%;
+    border-radius: 20px;
+    /* width: 25vw;
+    height: 42vw; */
+    width: 21vw;
+    height: 35vw;
+    transition: transform 0.25s ease, opacity 0.25s linear;
+    z-index: 1;
   }
   
+  #cardContainer.spread5 {
+    transform: scale(0.8);
+  }
+
+  #cardContainer.spread7 {
+    transform: scale(0.5);
+  }
+
   #cardContainer .cardBox.show {
-    transition: opacity 0.25s linear;
+    /* transition: opacity 0.25s linear; */
     opacity: 1;
+    z-index: 2;
+    transform: translate(0%, 200%) scale(1.5) !important;
   }
   
   /* card flip animation */
@@ -44,11 +53,12 @@
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
   }
   
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
+    z-index: 2;
   }
   
   .flip-card-front, .flip-card-back {
@@ -60,15 +70,22 @@
   }
   
   .flip-card-front {
-    background-color: #bbb;
+    /* background-color: #bbb; */
     color: black;
   }
   
   .flip-card-back {
-    background-color: #2980b9;
-    color: white;
+    background-image: url('../../../public/assets/images/img29.jpg');
+    background-size: auto 100%;
+    color: white; 
     transform: rotateY(180deg);
+    border-radius: 2.5vw;
   }
   
+  .flip-card-front img {
+    width: 100%;
+    height: auto;
+    border-radius: 2.5vw;
+  }
   
   
