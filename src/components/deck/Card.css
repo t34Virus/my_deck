@@ -16,21 +16,24 @@
   
   #cardContainer .cardBox {
     position: absolute;
-    border-radius: 20px;
-    /* width: 25vw;
-    height: 42vw; */
     width: 21vw;
     height: 35vw;
     transition: transform 0.25s ease, opacity 0.25s linear;
     z-index: 1;
+    opacity: 0;
+    pointer-events: none;
   }
-  
+  #cardContainer .cardBox.spread {
+    pointer-events: unset;
+    opacity: 1;
+  }
+
   #cardContainer.spread5 {
     transform: scale(0.8);
   }
 
   #cardContainer.spread7 {
-    transform: scale(0.5);
+    transform: scale(0.6);
   }
 
   #cardContainer .cardBox.show {

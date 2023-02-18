@@ -6,7 +6,11 @@ import { CardType } from '../../types/CardTypes';
 function Card() {
   const deck = require('../../config/config.json')
   let cardElements: Array<HTMLElement>;
-
+  const cardMeanings = {
+    3: 'past, present, preparation',
+    5: 'past, present, preparation, reason, solution',
+    7: 'past, present, expectation, advice, surroundings, obstacles, resolution',
+  }
   function getAllCards() {
     let tempArray = [];
 
@@ -49,16 +53,16 @@ function Card() {
     });
 
     const randoNumbers = randomUniqueNum(cardElements.length-1, spread);
+    let cardPos = new Array();
     randoNumbers.forEach((card, index) => {
-      const horizontal = (index-(spread/2)) * 100;
-      const vertical = (Math.abs((index-(spread/2.5)) * 100)/spread) + 120;
-      
-      console.log(horizontal, vertical);
-
+      const horizontal = ((index-(spread/2)) * 100) + 50;
+      const vertical = (Math.abs((index-(spread/2.5)) * 100)/spread) + (25/spread);
+      cardPos.push(horizontal + ':' + vertical);
       cardElements[card].classList.add('spread')
       cardElements[card].style.transform = 
-      `translate(${horizontal + 50}%, ${vertical}%)`;
+      `translate(${horizontal}%, ${vertical}%)`;
     });
+    console.log(cardPos)
   }
 
   function randomUniqueNum(range: number, outputCount: number) {
