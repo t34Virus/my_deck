@@ -8,6 +8,7 @@ function Card() {
 
   function getAllCards() {
     let tempArray = [];
+    let cardElements: Array<HTMLElement>;
     for (const card in deck) {
       const cardImage = createElement('img', { src: deck[card].image_path });
       const cardDescription = createElement('p',{}, deck[card].description);
@@ -36,9 +37,36 @@ function Card() {
     });
     cardElements[randoNumber].classList.add('show');
   }
+
+  function spreadCards(spread: number) {
+    if (!cardElements) {
+      cardElements = Array.from(document.getElementsByClassName('cardBox') as HTMLCollectionOf<HTMLElement>);
+    }
+
+    const cardContainer = document.getElementById('cardContainer') as HTMLElement;
+    if (cardContainer?.className) {
+      cardContainer.className = '';
+    }
+    cardContainer.className = `spread${spread}`;
+  }
+
+  function randomUniqueNewYork(range: number, outputCount: number) {
+    let array: Array<number> = [];
+    for (let i = 1; i <= range; i++) {
+      array.push(i);
+    }
+
+    let result: Array<number> = [];
+    for (let i = 1; i <= outputCount; i++) {
+      const random = Math.floor(Math.random() * (range - i));
+      result.push(array[random]);
+      array[random] = array[range-i]
+    }
+    return result;
+  }
   return (
     <div className="App">
-      <button id="rando" onClick={showCard}>Click me</button>
+      <button id="rando" onClick={() => randomUniqueNewYork(10, 10)}>Click me</button>
       <div id="cardContainer">
         {
           getAllCards()
