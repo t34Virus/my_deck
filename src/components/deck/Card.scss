@@ -33,7 +33,7 @@
     &.show {
       opacity: 1;
       z-index: 2;
-      transform: translate(0%, 75%) scale(1.5) !important;
+      transform: translate(0, 75%) scale(1.5) !important;
     }
   }
 }
@@ -80,6 +80,9 @@
   color: white; 
   transform: rotateY(180deg);
   border-radius: 2.5vw;
+  p {
+    font-size: 2vw;
+  }
 }
 
 .flip-card-front img {
