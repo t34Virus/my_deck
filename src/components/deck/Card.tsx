@@ -5,10 +5,10 @@ import { CardType } from '../../types/CardTypes';
 
 function Card() {
   const deck = require('../../config/config.json')
+  let cardElements: Array<HTMLElement>;
 
   function getAllCards() {
     let tempArray = [];
-    let cardElements: Array<HTMLElement>;
     for (const card in deck) {
       const cardImage = createElement('img', { src: deck[card].image_path });
       const cardDescription = createElement('p',{}, deck[card].description);
@@ -48,6 +48,15 @@ function Card() {
       cardContainer.className = '';
     }
     cardContainer.className = `spread${spread}`;
+
+    const randoNumbers = randomUniqueNewYork(cardElements.length-1, spread);
+    let cardPos = new Array()
+    randoNumbers.forEach((number, index) => {
+      const horizontalPos = ((index - (spread/2)) * 100) + 50;
+      const verticalPos = (Math.abs((index - (spread/2.5)) * 100)/spread) + (25/spread)
+      cardPos.push({horizontalPos, verticalPos})
+      console.log(cardPos);
+    })
   }
 
   function randomUniqueNewYork(range: number, outputCount: number) {
@@ -66,7 +75,10 @@ function Card() {
   }
   return (
     <div className="App">
-      <button id="rando" onClick={() => randomUniqueNewYork(10, 10)}>Click me</button>
+      <button id="rando" onClick={showCard}>Click me</button>
+      <button id="spreadCard3" onClick={() => spreadCards(3)}>3 Card Spread</button>
+      <button id="spreadCard5" onClick={() => spreadCards(5)}>5 Card Spread</button>
+      <button id="spreadCard5" onClick={() => spreadCards(7)}>7 Card Spread</button>
       <div id="cardContainer">
         {
           getAllCards()
