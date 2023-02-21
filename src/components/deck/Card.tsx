@@ -1,24 +1,19 @@
 import logo from './logo.svg';
 import { createElement } from 'react';
-import './Card.css';
+import './Card.scss';
 import { CardType } from '../../types/CardTypes';
 
 function Card() {
   const deck = require('../../config/config.json')
   let cardElements: Array<HTMLElement>;
-  const cardMeanings = {
-    3: 'past, present, preparation',
-    5: 'past, present, preparation, reason, solution',
-    7: 'past, present, expectation, advice, surroundings, obstacles, resolution',
-  }
+
   function getAllCards() {
     let tempArray = [];
-
     for (const card in deck) {
-      const cardFrontImage = createElement('img', { src: deck[card].image_path });
+      const cardImage = createElement('img', { src: deck[card].image_path });
       const cardDescription = createElement('p',{}, deck[card].description);
       const flipCardFront = createElement('div',
-      { className: 'flip-card-front'}, cardFrontImage)
+      { className: 'flip-card-front'}, cardImage)
       const flipCardBack = createElement('div',
       { className: 'flip-card-back'}, cardDescription)
       const flipCardInner = createElement('div',
@@ -26,61 +21,11 @@ function Card() {
       const flipCard = createElement('div',
       { 
         className: 'cardBox flip-card',
-        onClick: () => showCard(parseInt(card)) 
+        onClick: () => showCard(parseInt(card))
       }, flipCardInner )
       tempArray.push(flipCard);
     }
     return tempArray;
-  }
-
-  function spreadCards(spread: number) {
-    if (!cardElements) {
-      cardElements = Array.from(document.getElementsByClassName('cardBox') as HTMLCollectionOf<HTMLElement>)
-    }
-    
-    const cardContainer = document.getElementById('cardContainer')
-    if (cardContainer?.className) {
-      cardContainer.className = '';
-    }
-    cardContainer?.classList.add(`spread${spread}`);
-
-    cardElements.forEach(card => {
-      if (card.classList.contains('spread') || card.classList.contains('show')) {
-        card.classList.remove('show')
-        card.classList.remove('spread')
-        card.style.transform = `translate(0,0)`;
-      }
-    });
-
-    const randoNumbers = randomUniqueNum(cardElements.length-1, spread);
-    let cardPos = new Array();
-    randoNumbers.forEach((card, index) => {
-      const horizontal = ((index-(spread/2)) * 100) + 50;
-      const vertical = (Math.abs((index-(spread/2.5)) * 100)/spread) + (25/spread);
-      cardPos.push(horizontal + ':' + vertical);
-      cardElements[card].classList.add('spread')
-      cardElements[card].style.transform = 
-      `translate(${horizontal}%, ${vertical}%)`;
-    });
-    console.log(cardPos)
-  }
-
-  function randomUniqueNum(range: number, outputCount: number) {
-
-    let arr = []
-    for (let i = 1; i <= range; i++) {
-      arr.push(i)
-    }
-  
-    let result = [];
-  
-    for (let i = 1; i <= outputCount; i++) {
-      const random = Math.floor(Math.random() * (range - i));
-      result.push(arr[random]);
-      arr[random] = arr[range - i];
-    }
-  
-    return result;
   }
 
   function showCard(card?: number) {
@@ -93,12 +38,57 @@ function Card() {
       cardElements[card].classList.add('show');
     }
   }
+
+  function spreadCards(spread: number) {
+    if (!cardElements) {
+      cardElements = Array.from(document.getElementsByClassName('cardBox') as HTMLCollectionOf<HTMLElement>);
+    }
+
+    const cardContainer = document.getElementById('cardContainer') as HTMLElement;
+    if (cardContainer?.className) {
+      cardContainer.className = '';
+    }
+    cardContainer.className = `spread${spread}`;
+
+    cardElements.forEach(card => {
+      if (card.classList.contains('show') || card.classList.contains('spread')) {
+        card.classList.remove('show')
+        card.classList.remove('spread')
+        card.style.transform = '';
+      }
+    })
+    const randoNumbers = randomUniqueNewYork(cardElements.length-1, spread);
+    let cardPos = new Array()
+    randoNumbers.forEach((number, index) => {
+      const horizontalPos = ((index - (spread/2)) * 100) + 50;
+      const verticalPos = (Math.abs((index - (spread/2.5)) * 100)/spread) + (25/spread)
+      cardPos.push({horizontalPos, verticalPos})
+      cardElements[number].classList.add('spread');
+      cardElements[number].style.transform = `translate(${horizontalPos}%, ${verticalPos}%)`;
+    })
+    console.log(cardPos);
+  }
+
+  function randomUniqueNewYork(range: number, outputCount: number) {
+    let array: Array<number> = [];
+    for (let i = 1; i <= range; i++) {
+      array.push(i);
+    }
+
+    let result: Array<number> = [];
+    for (let i = 1; i <= outputCount; i++) {
+      const random = Math.floor(Math.random() * (range - i));
+      result.push(array[random]);
+      array[random] = array[range-i]
+    }
+    return result;
+  }
   return (
     <div className="App">
-      {/* <button id="rando" onClick={showCard}>Click me</button> */}
-      <button id="spread3" onClick={() => spreadCards(3)}>3</button>
-      <button id="spread5" onClick={() => spreadCards(5)}>5</button>
-      <button id="spread7" onClick={() => spreadCards(7)}>7</button>
+      {/* <button id="rando" onClick={() => showCard()}>Click me</button> */}
+      <button id="spreadCard3" onClick={() => spreadCards(3)}>3 Card Spread</button>
+      <button id="spreadCard5" onClick={() => spreadCards(5)}>5 Card Spread</button>
+      <button id="spreadCard5" onClick={() => spreadCards(7)}>7 Card Spread</button>
       <div id="cardContainer">
         {
           getAllCards()
