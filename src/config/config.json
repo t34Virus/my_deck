@@ -1,294 +1,294 @@
 {
     "0" : {
         "name" : "fool",
-        "image_path" : "my_deck/assets/images/0-fool.jpg",
+        "image_path" : "assets/images/0-fool.jpg",
         "description": "“A fool takes no pleasure in understanding, but only in expressing his opinion.” -Proverbs 18:2",
         "upright": ["Innocent", "Original", "Eccentric", "Faithful", "Opportunity", "Spontaneity"],
         "reverse": ["Willful ignorance", "inconsiderate", "poor planning", "inexperienced", "repeating mistakes"]
     },
     "1" : {
         "name" : "magician",
-        "image_path" : "my_deck/assets/images/1-magician.jpg",
+        "image_path" : "assets/images/1-magician.jpg",
         "description": "“The way of a fool is right in his own eyes, but a wise man listens to advice.” - Proverbs 12:15",
         "upright": ["Efficiency", "Ready for action", "Confident", "Successful", "Focused", "Prepared for change"],
         "reverse": ["Impatience", "Domineering", "Unreliable", "Unpredictable", "Tyrannical", "Disconnected", "Delusional", "Toxic"]
     },
     "2" : {
         "name" : "priestess",
-        "image_path" : "my_deck/assets/images/2-priestess.jpg",
+        "image_path" : "assets/images/2-priestess.jpg",
         "description": "“For nothing is hidden that will not be made manifest, nor is anything secret that will not be known and come to light.” - Luke 8:17",
         "upright": ["Spiritual: Self-Reflection", "Purpose", "Direction in sleep", "Values", "Service to others", "Spontaneity", "Growth"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "3" : {
         "name" : "empress",
-        "image_path" : "my_deck/assets/images/3-empress.jpg",
+        "image_path" : "assets/images/3-empress.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "4" : {
         "name" : "emperor",
-        "image_path" : "my_deck/assets/images/4-emperor.jpg",
+        "image_path" : "assets/images/4-emperor.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "5" : {
         "name" : "hierophant",
-        "image_path" : "my_deck/assets/images/5-hierophant.jpg",
+        "image_path" : "assets/images/5-hierophant.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "6" : {
         "name" : "lovers",
-        "image_path" : "my_deck/assets/images/6-lovers.jpg",
+        "image_path" : "assets/images/6-lovers.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "7" : {
         "name" : "chariot",
-        "image_path" : "my_deck/assets/images/7-chariot.jpg",
+        "image_path" : "assets/images/7-chariot.jpg",
         "description": "“A fool takes no pleasure in understanding, but only in expressing his opinion.” -Proverbs 18:2",
         "upright": ["Innocent", "Original", "Eccentric", "Faithful", "Opportunity", "Spontaneity"],
         "reverse": ["Willful ignorance", "inconsiderate", "poor planning", "inexperienced", "repeating mistakes"]
     },
     "8" : {
         "name" : "justice",
-        "image_path" : "my_deck/assets/images/8-justice.jpg",
+        "image_path" : "assets/images/8-justice.jpg",
         "description": "“The way of a fool is right in his own eyes, but a wise man listens to advice.” - Proverbs 12:15",
         "upright": ["Efficiency", "Ready for action", "Confident", "Successful", "Focused", "Prepared for change"],
         "reverse": ["Impatience", "Domineering", "Unreliable", "Unpredictable", "Tyrannical", "Disconnected", "Delusional", "Toxic"]
     },
     "9" : {
         "name" : "hermit",
-        "image_path" : "my_deck/assets/images/9-hermit.jpg",
+        "image_path" : "assets/images/9-hermit.jpg",
         "description": "“For nothing is hidden that will not be made manifest, nor is anything secret that will not be known and come to light.” - Luke 8:17",
         "upright": ["Spiritual: Self-Reflection", "Purpose", "Direction in sleep", "Values", "Service to others", "Spontaneity", "Growth"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "10" : {
         "name" : "wheel",
-        "image_path" : "my_deck/assets/images/10-wheel.jpg",
+        "image_path" : "assets/images/10-wheel.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "11" : {
         "name" : "strength",
-        "image_path" : "my_deck/assets/images/11-strength.jpg",
+        "image_path" : "assets/images/11-strength.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "12" : {
         "name" : "hanged",
-        "image_path" : "my_deck/assets/images/12-hanged.jpg",
+        "image_path" : "assets/images/12-hanged.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "13" : {
         "name" : "death",
-        "image_path" : "my_deck/assets/images/13-death.jpg",
+        "image_path" : "assets/images/13-death.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "14" : {
         "name" : "temperance",
-        "image_path" : "my_deck/assets/images/14-temperance.jpg",
+        "image_path" : "assets/images/14-temperance.jpg",
         "description": "“A fool takes no pleasure in understanding, but only in expressing his opinion.” -Proverbs 18:2",
         "upright": ["Innocent", "Original", "Eccentric", "Faithful", "Opportunity", "Spontaneity"],
         "reverse": ["Willful ignorance", "inconsiderate", "poor planning", "inexperienced", "repeating mistakes"]
     },
     "15" : {
         "name" : "devil",
-        "image_path" : "my_deck/assets/images/15-devil.jpg",
+        "image_path" : "assets/images/15-devil.jpg",
         "description": "“The way of a fool is right in his own eyes, but a wise man listens to advice.” - Proverbs 12:15",
         "upright": ["Efficiency", "Ready for action", "Confident", "Successful", "Focused", "Prepared for change"],
         "reverse": ["Impatience", "Domineering", "Unreliable", "Unpredictable", "Tyrannical", "Disconnected", "Delusional", "Toxic"]
     },
     "16" : {
         "name" : "tower",
-        "image_path" : "my_deck/assets/images/16-tower.jpg",
+        "image_path" : "assets/images/16-tower.jpg",
         "description": "“For nothing is hidden that will not be made manifest, nor is anything secret that will not be known and come to light.” - Luke 8:17",
         "upright": ["Spiritual: Self-Reflection", "Purpose", "Direction in sleep", "Values", "Service to others", "Spontaneity", "Growth"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "17" : {
         "name" : "star",
-        "image_path" : "my_deck/assets/images/17-star.jpg",
+        "image_path" : "assets/images/17-star.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "18" : {
         "name" : "moon",
-        "image_path" : "my_deck/assets/images/18-moon.jpg",
+        "image_path" : "assets/images/18-moon.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "19" : {
         "name" : "sun",
-        "image_path" : "my_deck/assets/images/19-sun.jpg",
+        "image_path" : "assets/images/19-sun.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "20" : {
         "name" : "judgement",
-        "image_path" : "my_deck/assets/images/20-judgement.jpg",
+        "image_path" : "assets/images/20-judgement.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "21" : {
         "name" : "world",
-        "image_path" : "my_deck/assets/images/21-world.jpg",
+        "image_path" : "assets/images/21-world.jpg",
         "description": "“A fool takes no pleasure in understanding, but only in expressing his opinion.” -Proverbs 18:2",
         "upright": ["Innocent", "Original", "Eccentric", "Faithful", "Opportunity", "Spontaneity"],
         "reverse": ["Willful ignorance", "inconsiderate", "poor planning", "inexperienced", "repeating mistakes"]
     },
     "22" : {
         "name" : "ace-of-clubs",
-        "image_path" : "my_deck/assets/images/ace-of-clubs.jpg",
+        "image_path" : "assets/images/ace-of-clubs.jpg",
         "description": "“The way of a fool is right in his own eyes, but a wise man listens to advice.” - Proverbs 12:15",
         "upright": ["Efficiency", "Ready for action", "Confident", "Successful", "Focused", "Prepared for change"],
         "reverse": ["Impatience", "Domineering", "Unreliable", "Unpredictable", "Tyrannical", "Disconnected", "Delusional", "Toxic"]
     },
     "23" : {
         "name" : "ace-of-diamonds",
-        "image_path" : "my_deck/assets/images/ace-of-diamonds.jpg",
+        "image_path" : "assets/images/ace-of-diamonds.jpg",
         "description": "“For nothing is hidden that will not be made manifest, nor is anything secret that will not be known and come to light.” - Luke 8:17",
         "upright": ["Spiritual: Self-Reflection", "Purpose", "Direction in sleep", "Values", "Service to others", "Spontaneity", "Growth"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "24" : {
         "name" : "ace-of-hearts",
-        "image_path" : "my_deck/assets/images/ace-of-hearts.jpg",
+        "image_path" : "assets/images/ace-of-hearts.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "25" : {
         "name" : "ace-of-spades",
-        "image_path" : "my_deck/assets/images/ace-of-spades.jpg",
+        "image_path" : "assets/images/ace-of-spades.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "26" : {
         "name" : "2-of-clubs",
-        "image_path" : "my_deck/assets/images/2-of-clubs.jpg",
+        "image_path" : "assets/images/2-of-clubs.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "27" : {
         "name" : "2-of-diamonds",
-        "image_path" : "my_deck/assets/images/2-of-diamonds.jpg",
+        "image_path" : "assets/images/2-of-diamonds.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "28" : {
         "name" : "2-of-hearts",
-        "image_path" : "my_deck/assets/images/2-of-hearts.jpg",
+        "image_path" : "assets/images/2-of-hearts.jpg",
         "description": "“A fool takes no pleasure in understanding, but only in expressing his opinion.” -Proverbs 18:2",
         "upright": ["Innocent", "Original", "Eccentric", "Faithful", "Opportunity", "Spontaneity"],
         "reverse": ["Willful ignorance", "inconsiderate", "poor planning", "inexperienced", "repeating mistakes"]
     },
     "29" : {
         "name" : "2-of-spades",
-        "image_path" : "my_deck/assets/images/2-of-spades.jpg",
+        "image_path" : "assets/images/2-of-spades.jpg",
         "description": "“The way of a fool is right in his own eyes, but a wise man listens to advice.” - Proverbs 12:15",
         "upright": ["Efficiency", "Ready for action", "Confident", "Successful", "Focused", "Prepared for change"],
         "reverse": ["Impatience", "Domineering", "Unreliable", "Unpredictable", "Tyrannical", "Disconnected", "Delusional", "Toxic"]
     },
     "30" : {
         "name" : "priestess",
-        "image_path" : "my_deck/assets/images/2-priestess.jpg",
+        "image_path" : "assets/images/2-priestess.jpg",
         "description": "“For nothing is hidden that will not be made manifest, nor is anything secret that will not be known and come to light.” - Luke 8:17",
         "upright": ["Spiritual: Self-Reflection", "Purpose", "Direction in sleep", "Values", "Service to others", "Spontaneity", "Growth"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "31" : {
         "name" : "empress",
-        "image_path" : "my_deck/assets/images/3-empress.jpg",
+        "image_path" : "assets/images/3-empress.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "32" : {
         "name" : "emperor",
-        "image_path" : "my_deck/assets/images/4-emperor.jpg",
+        "image_path" : "assets/images/4-emperor.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "33" : {
         "name" : "hierophant",
-        "image_path" : "my_deck/assets/images/5-hierophant.jpg",
+        "image_path" : "assets/images/5-hierophant.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "34" : {
         "name" : "lovers",
-        "image_path" : "my_deck/assets/images/6-lovers.jpg",
+        "image_path" : "assets/images/6-lovers.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "35" : {
         "name" : "fool",
-        "image_path" : "my_deck/assets/images/0-fool.jpg",
+        "image_path" : "assets/images/0-fool.jpg",
         "description": "“A fool takes no pleasure in understanding, but only in expressing his opinion.” -Proverbs 18:2",
         "upright": ["Innocent", "Original", "Eccentric", "Faithful", "Opportunity", "Spontaneity"],
         "reverse": ["Willful ignorance", "inconsiderate", "poor planning", "inexperienced", "repeating mistakes"]
     },
     "36" : {
         "name" : "magician",
-        "image_path" : "my_deck/assets/images/1-magician.jpg",
+        "image_path" : "assets/images/1-magician.jpg",
         "description": "“The way of a fool is right in his own eyes, but a wise man listens to advice.” - Proverbs 12:15",
         "upright": ["Efficiency", "Ready for action", "Confident", "Successful", "Focused", "Prepared for change"],
         "reverse": ["Impatience", "Domineering", "Unreliable", "Unpredictable", "Tyrannical", "Disconnected", "Delusional", "Toxic"]
     },
     "37" : {
         "name" : "priestess",
-        "image_path" : "my_deck/assets/images/2-priestess.jpg",
+        "image_path" : "assets/images/2-priestess.jpg",
         "description": "“For nothing is hidden that will not be made manifest, nor is anything secret that will not be known and come to light.” - Luke 8:17",
         "upright": ["Spiritual: Self-Reflection", "Purpose", "Direction in sleep", "Values", "Service to others", "Spontaneity", "Growth"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "38" : {
         "name" : "empress",
-        "image_path" : "my_deck/assets/images/3-empress.jpg",
+        "image_path" : "assets/images/3-empress.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "39" : {
         "name" : "emperor",
-        "image_path" : "my_deck/assets/images/4-emperor.jpg",
+        "image_path" : "assets/images/4-emperor.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "40" : {
         "name" : "hierophant",
-        "image_path" : "my_deck/assets/images/5-hierophant.jpg",
+        "image_path" : "assets/images/5-hierophant.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
     },
     "41" : {
         "name" : "lovers",
-        "image_path" : "my_deck/assets/images/6-lovers.jpg",
+        "image_path" : "assets/images/6-lovers.jpg",
         "description": "“She looks well to the ways of her household and does not eat the bread of idleness.” - Proverbs 31:27",
         "upright": ["Contentment", "bliss", "warm", "relaxed", "stable", "motherly", "family growth", "shared rewards support"],
         "reverse": ["A time to focus on the tangible", "withdraw", "Unreliable", "remembering spiritual purpose", "pursue authentic", "goals"]
