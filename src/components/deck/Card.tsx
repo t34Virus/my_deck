@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import { createElement } from 'react';
 import './Card.scss';
 import { CardType } from '../../types/CardTypes';
@@ -10,7 +9,7 @@ function Card() {
   function getAllCards() {
     let tempArray = [];
     for (const card in deck) {
-      const cardImage = createElement('img', { src: deck[card].image_path });
+      const cardImage = createElement('img', { src: `${window.location.hostname ? '/my_deck/' : ''}${deck[card].image_path}` });
       const cardDescription = createElement('p',{}, deck[card].description);
       const flipCardFront = createElement('div',
       { className: 'flip-card-front'}, cardImage)
